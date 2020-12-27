@@ -30,6 +30,16 @@ export default class CreateOrdersProducts1609075377423
             isNullable: false,
           },
           {
+            name: 'price',
+            type: 'decimal',
+            precision: 8,
+            scale: 2,
+          },
+          {
+            name: 'quantity',
+            type: 'integer',
+          },
+          {
             name: 'created_at',
             type: 'timestamp',
             default: 'now()',
